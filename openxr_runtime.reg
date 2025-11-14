@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+; OpenXR Runtime Configuration for Windows 11 24H2 and newer
+; This registry file configures the OpenXR runtime to work with SteamVR
+
+; Set the active OpenXR runtime to SteamVR
+[HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1]
+"ActiveRuntime"="C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\steamxr_win64.json"
+
+; Enable API layers
+[HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\ApiLayers]
+
+; Enable implicit API layers
+[HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit]
+
+; Enable explicit API layers  
+[HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Explicit]
+
+; Available runtimes
+[HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\OpenXR\1\AvailableRuntimes]
+"C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\steamxr_win64.json"=dword:00000000
