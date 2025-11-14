@@ -1,5 +1,15 @@
 # OpenXR Support for Windows 11 24H2 and Newer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 📚 Documentation
+
+- **[Installation Guide](INSTALLATION.md)** - Detailed installation instructions
+- **[Quick Start Guide](QUICKSTART.md)** - Get started quickly
+- **[FAQ](FAQ.md)** - Frequently asked questions  
+- **[Troubleshooting](TROUBLESHOOTING.md)** - Common issues and solutions
+- **[Contributing](CONTRIBUTING.md)** - How to contribute
+
 ## Проблема / Problem
 
 Starting with Windows 11 24H2, Microsoft removed the built-in Mixed Reality Portal and Windows Mixed Reality components, which breaks OpenXR applications. This affects VR headsets that rely on the Windows Mixed Reality OpenXR runtime.
@@ -166,16 +176,24 @@ Tested with:
 
 ## License / Лицензия
 
-MIT License
+MIT License - See [LICENSE](LICENSE) for details
 
 ## Contributing / Вклад
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Вклады приветствуются! Не стесняйтесь отправлять проблемы или запросы на включение изменений.
+Вклады приветствуются! Пожалуйста, прочитайте [CONTRIBUTING.md](CONTRIBUTING.md) для руководства.
+
+## Support / Поддержка
+
+- **Questions?** Check the [FAQ](FAQ.md)
+- **Problems?** See [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+- **Issues?** [Report them on GitHub](https://github.com/hikinokomora/OpenXR24h2-win11-/issues)
 
 ## Disclaimer / Отказ от ответственности
 
 This is an unofficial solution. Use at your own risk. Always backup your system before making registry changes.
+
+Это неофициальное решение. Используйте на свой риск. Всегда делайте резервную копию системы перед внесением изменений в реестр.
 
 Это неофициальное решение. Используйте на свой риск. Всегда делайте резервную копию системы перед внесением изменений в реестр.
